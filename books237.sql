@@ -1,0 +1,1 @@
+DELETE FROM d124543_bookstore.authors WHERE id NOT IN (SELECT author_id FROM d124543_bookstore.book_authors);

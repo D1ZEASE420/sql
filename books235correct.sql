@@ -1,0 +1,2 @@
+INSERT INTO 
+d124543_bookstore.orders (delivery_address , order_date, status, client_id, book_id) VALUES ( 	"default address", NOW(), "sent", 	(SELECT id FROM d124543_bookstore.clients WHERE username = 'mcage1o'), 	(SELECT id FROM d124543_bookstore.books WHERE title = 'Vendetta'));

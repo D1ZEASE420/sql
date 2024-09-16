@@ -1,0 +1,1 @@
+UPDATE d124543_bookstore.books SET price = ROUND(price * 1.05, 2), pages = pages - 5
